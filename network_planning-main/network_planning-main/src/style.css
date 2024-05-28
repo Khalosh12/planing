@@ -1,0 +1,51 @@
+body {
+  font-family: "Bookman Old Style", serif;
+  background-color: #f8fcff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #7fcf8e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #397d49;
+  text-align: center;
+}
+
+label {
+  color: #397d49;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #5bb272;
+  color: #f6fafd;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3f9058;
+}
+
+.graph-info {
+  color: #397d49;
+  margin-top: 20px;
+}
+
+.graph-info p {
+  margin-bottom: 10px;
+}
